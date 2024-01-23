@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backimg{
+    background-image: url("pexels-rostislav-uzunov-5011647.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 25px;
+}
+
+p{
+    color: #fff;
+}
+
+h2{
+    color: rgb(206, 227, 227);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content article {
+    width: 65%;
+}
+
+.main-content aside {
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
